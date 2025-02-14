@@ -92,3 +92,6 @@ logicas do player
   npm install mongodb
   node ./api/server.js = rodas o servidor
   npm run dev = roda o vite
+
+  npm run build =  roda a build dos dois projetos
+  npm run start = roda os projetos
