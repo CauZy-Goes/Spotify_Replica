@@ -1,0 +1,94 @@
+npm create vite@latest
+npm install
+
+npm instal/i = instala aas dependencias no json, cria o node_modules
+"dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0"
+  }
+
+  npm run dev
+{
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+}
+
+
+export default = posso importart com qualquer nome e sem chaves
+export(sem o default) = so posso importar entre chaves e nome importado
+
+self closing tag
+<header/>
+
+
+
+Dicionario
+
+cd = change directory
+npm = named packed named
+json = java script object notation
+rafce = react arrow function componnent explore
+
+PascalCase = MainSelection, HeadGolang
+
+camelCase = bigDoll, seaShark
+
+kabab-case = ola-mundo
+
+
+/* Reset */
+/* user agent stylesheet */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Metodologia BEM
+
+Blocks Elements Modifiers
+
+bloco__elemento--modificador
+header__link--small
+
+tag vazia em react se chama fragment
+
+nomes compostos sao separados por hifen -
+
+
+Spread operator = {...obj} copia os valores 
+
+quando compenents se re-rederizao
+- uma variavel de estado de um coponente é atualizada
+
+hook - useState
+
+
+Contruir api express
+conexao com banco de dados
+conectar o front e back
+logicas do player
+
+1 - No back end, API
+  npm init -y = package.json
+  npm i express
+  npm i cors
+  npm install mongodb
+  node ./api/server.js = rodas o servidor
+  npm run dev = roda o vite
